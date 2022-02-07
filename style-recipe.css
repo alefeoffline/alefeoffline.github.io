@@ -18,10 +18,16 @@ h3 {
   color: #ce7849;
 }
 a {
-  color: #ff5c05;
+  display: inline-block;
   text-decoration: none;
+  background-color: white;
+  color: #ff5c05;
+  margin: 1rem;
 }
-
+a:hover {
+  background-color: #ff5c05;
+  color: white;
+}
 .wrapper {
   border: 2px solid rgb(81, 255, 0);
   display: flex;
@@ -33,12 +39,4 @@ img {
   width: 600px;
   height: auto;
   margin: 3rem;
-}
-li {
-  border: 2px solid rgb(0, 0, 0);
-  display: inline-block;
-  text-align: center;
-  padding: 0;
-  margin: 0.4rem;
-  background-color: white;
 }
