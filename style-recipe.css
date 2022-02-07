@@ -34,6 +34,7 @@ a:hover {
   flex-flow: column wrap;
   margin: 0.1rem;
   padding: 1rem;
+  border: none;
 }
 
 img {
