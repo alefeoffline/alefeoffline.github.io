@@ -1,2 +1,2 @@
-Html-only practice
+Html practice
 beginning with recipe list
