@@ -35,10 +35,14 @@ nav {
 header {
   background: crimson;
   flex: 0 0 10vh;
+  margin: 0px;
+  border-radius: 0 0 10px 10px;
 }
 footer {
   background: gold;
   flex: 0 0 10vh;
+  margin: 0px;
+  border-radius: 10px 10px 0 0;
 }
 article {
   background: aqua;
@@ -62,6 +66,9 @@ nav {
     flex-flow: row;
   }
 }
+h2 {
+  text-align: center;
+}
 aside {
   flex: 1 0 10vw;
   background: plum;
@@ -71,8 +78,7 @@ ul {
   padding: 1em;
 }
 ul li {
-  padding: 1em;
-  margin: 0;
+  padding: 0.3rem;
 }
 a {
   text-decoration: none;
